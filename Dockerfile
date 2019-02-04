@@ -1,4 +1,4 @@
-ROM openjdk:8-jdk-alpine
+FROM openjdk:8-jdk-alpine
 
 RUN mkdir /app
 COPY target/notes*.jar /app/
